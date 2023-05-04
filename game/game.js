@@ -16,14 +16,7 @@ else if (input == "바위")
 else if (input == "보")
     {player = 3;}
 
-    
-
-
-console.log(player);
-console.log(com);
-
 result = player - com;
-console.log(result);
 
 if((result == -2)||(result == 1))
     alert("win!");
